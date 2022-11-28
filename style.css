@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*Шапка*/
+.header {
+    background: #FFFF00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+.box img{
+    height: 400px;
+    width: 300px;
+}
+.box p{
+ width: 300px;   
+}
+.header a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+.h_title {
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+
+.h_slogan {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.box *{ 
+    margin: 0 15px 15px 0; 
+}
+.box{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+/*Кнопка*/
+.box button {
+    border: none;
+    outline: 0;
+    
+    color: #fff;
+    background-color: #142a8b;
+    text-align: center;
+    cursor: pointer;
+    width: 110px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#line_block { 
+    width:110px; 
+    height:50px; 
+    background:#f1f1f1; 
+    float:left; 
+    margin: 0 15px 15px 0; 
+    text-align:center;
+    padding: 10px;
+    }
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+.gallery img{
+	margin:5px; /* внешние отступы картинок */
+	border:3px solid #fff; /* рамка картинок */
+}
+a.photo:hover img{
+	border:3px solid #034F80; /* изменение цвета рамки при наведении на картинку */
+}
+.about{
+    height: 100%;
+}
+.about img{
+    height: 400px;
+    width: 400px;
+    padding-right: 20px;
+    text-align: right;
+}
+.about p{
+   
+    width: 90%;
+    text-align: justify;
+    margin: 20px;
+   
+    font-size: 30px;
+}
+.content {
+    padding-bottom: 30px;
+}
+
+.footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background:  #FFFF00; /* Grey background */
+}
+
+.sizer{
+    width: 600px;
+ 
+}
+.cont p{
+    margin: 20px;
+    padding: 15px;
+}
+.cont h3{
+    margin: 60px ;
+    color: blue;
+}
